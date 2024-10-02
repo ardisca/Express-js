@@ -1,0 +1,5 @@
+### Get All
+GET http://localhost:8000/books
+
+### Get By ID
+GET http://localhost:8000/books/66fd150d8487baa7cb2180f4

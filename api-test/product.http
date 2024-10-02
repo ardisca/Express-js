@@ -1,0 +1,5 @@
+### Get All Product
+GET http://localhost:8000/product
+
+### Get Single Product
+GET http://localhost:8000/product/1
