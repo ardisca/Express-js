@@ -2,4 +2,26 @@
 GET http://localhost:8000/books
 
 ### Get By ID
-GET http://localhost:8000/books/66fd150d8487baa7cb2180f4
+GET http://localhost:8000/books/66fe59d81408bbddf47578d7
+
+### Post Data
+POST http://localhost:8000/books
+Content-Type: application/json
+
+{
+    "title":"BUKU BERTAHAN HIDUP",
+    "authorId":"66fe565975b7544aa59fe1f7"
+}
+
+### Delet By ID
+DELETE http://localhost:8000/books/66fd150d8487baa7cb2180f4
+
+### PARCH/UPDATE Data
+PATCH http://localhost:8000/books/66fe4bbf95268990ea820b96
+Content-Type: application/json
+Authorization: 1234
+
+{
+    "title":"BUKU",
+    "authorName":"LORD LORD"
+}

@@ -1,0 +1,11 @@
+### Get All
+GET http://localhost:8000/authors
+
+### Post All
+POST  http://localhost:8000/authors
+Content-Type: application/json
+
+{
+    "name":"Ardisca",
+    "country":"Indonesia"
+}
